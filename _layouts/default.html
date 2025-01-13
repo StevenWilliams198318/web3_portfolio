@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ Steven Williams' Portfolio }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <h1>{{ Steven Williams' Portfolio }}</h1>
+    <p>{{ A portfolio website showcasing my work and projects }}</p>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+  </footer>
+</body>
+</html>
